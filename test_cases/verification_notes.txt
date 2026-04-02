@@ -1,0 +1,17 @@
+FCFS Verification Case
+
+Processes:
+P1 arrival=0 burst=4
+P2 arrival=1 burst=3
+P3 arrival=2 burst=2
+
+Expected FCFS Results:
+P1 start=0 finish=4 wait=0 turnaround=4
+P2 start=4 finish=7 wait=3 turnaround=6
+P3 start=7 finish=9 wait=5 turnaround=7
+
+Expected Metrics:
+Average Waiting Time = 2.67
+Average Turnaround Time = 5.67
+CPU Utilization = 100%
+Throughput = 0.33
